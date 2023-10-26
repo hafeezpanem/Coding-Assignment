@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="../calculator/style.css">
+    <script src="../calculator/calc.js"></script>
+</head>
+<body>
+        <table>
+            <tr>
+                <td colspan="3"><h1>SIMPLE CALCULATOR</h1></td>
+                <td><button type="button" onclick="backspace()" style="background: #00b3b3;">DEL</button></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="text" id="res"></td>
+                <td><button type="button" onclick="AC()" style="background: #00b3b3;">AC</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="show('7')">7</button></td>
+                <td><button type="button" onclick="show('8')">8</button></td>
+                <td><button type="button" onclick="show('9')">9</button></td>
+                <td><button type="button" onclick="show('+')" style="background: gray;">+</button></td>
+            </tr>	
+            <tr>
+                <td><button type="button" onclick="show('4')">4</button></td>
+                <td><button type="button" onclick="show('5')">5</button></td>
+                <td><button type="button" onclick="show('6')">6</button></td>
+                <td><button type="button" onclick="show('-')" style="background: gray;">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="show('1')">1</button></td>
+                <td><button type="button" onclick="show('2')">2</button></td>
+                <td><button type="button" onclick="show('3')">3</button></td>
+                <td><button type="button" onclick="show('/')" style="background: gray;">/</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="show('.')">.</button></td>
+                <td><button type="button" onclick="show('0')">0</button></td>
+                <td><button type="button" onclick="calculate()">=</button></td>
+                <td><button type="button" onclick="show('x')" style="background: gray;">x</button></td>
+                
+            </tr>
+        </table>
+</body>
+
+
+
+
+

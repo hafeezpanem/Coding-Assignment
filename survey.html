@@ -1,0 +1,59 @@
+<!Doctype HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>surveyform</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src = "validate.js"></script>
+</head>
+<body>
+	<h1>CUSTOMER SATISFACTION FORM</h1>
+	<form class="surveyform" style="background-color: white;" onsubmit="msg()">
+		<div class="nameemail">
+			<div class="nameclass">
+			<label for="name" id="labelname">Name</label>
+			<span class="star">*</span>
+			<br><input type="text" id="name" required>
+			</div>
+			<div class="emailclass">
+			<label for="email" id="labelemail">Email</label>
+			<span class="star">*</span>
+			<br><input type="email" id="email" required>
+			</div>
+		</div>
+		<br>
+		<div class="usage">
+		<br><label>Is this first time You are using our products & service?</label>
+		<span class="star">*</span>
+		<br><label for="yes"> <input type="radio" id="yes" class="firsttime" name="firsttime" required>Yes</input></label>
+		<label for="no"> <input type="radio" id="no" class="firstname" name="firsttime">No</input></label>
+		</div>
+
+		<div class="suggest">
+		<br><label>Would you suggests to your friends and colleague?</label>
+		<span class="star">*</span>
+		<br><label for="yes"> <input type="radio" id="yes" name="suggests" required>Yes</input></label>
+		<label for="no"> <input type="radio" id="no" name="suggests" required>No</input></label>
+		</div>
+
+		<br>
+		<div class="satisfaction">
+		<label>How satisfied are you with our company overall?</label>
+		<span class="star">*</span>
+		<br><label for="satisfied"> <input type="radio" id="satisfied" name="satisfaction" required>Satisfied</input></label>
+		<label for="undecided"> <input type="radio" id="undecided" name="satisfaction">Undecided</input></label>
+		<label for="Unsatisfied"> <input type="radio" id = "Unsatisfied" name="satisfaction">Unsatisfied</input></label>
+		</div>
+		<br>
+		<div class="comments">
+			<label for="comment">Do you have suggestion to improve our service?</label>
+			<span class="star">*</span>
+			<br><textarea name="comment" id="comment" required></textarea>
+		</div>
+
+		<br><button type="submit" value="submit">Submit</button>
+
+</body>
+</html>

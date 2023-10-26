@@ -1,0 +1,36 @@
+.surveyform{
+	padding: 50px;
+	border: black;
+	border-style: solid;
+	width: 35%;
+	height: 35%;
+	margin: auto;
+	background-color: white;
+}
+body h1{
+	text-align: center;
+}
+body{
+	background-color: skyblue;
+}
+.usage,.suggest,.satisfaction,.comments{
+	background-color: white;
+}
+.nameemail{
+	display: flex;
+}
+.comments textarea{
+	width: 100%;
+	padding: 10px;
+}
+.star{
+	color: red;
+}
+.emailclass{
+	margin-left: 25%;
+}
+button{
+	background-color: skyblue;
+	padding: 5px;
+}
+
